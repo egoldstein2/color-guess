@@ -1,0 +1,101 @@
+body {
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    min-width: 360px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 8vh;
+    margin: 0;
+}
+
+button {
+    font-size: .9rem;
+    font-weight: 900;
+    height: 50px;
+    border: 0;
+    background-color: rgb(48, 99, 148);
+    color: white;
+    outline: none;
+    margin-left: 5px;
+    transition: all .3s;
+}
+
+button:hover {
+    background-color: rgb(32, 66, 97);
+}
+
+.selected {
+    background-color: rgb(32, 66, 97);
+}
+
+.header {
+    background-color: rgb(48, 99, 148);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.stripe {
+    color: black;
+    background-color: white;
+    height: 50px;
+    margin: 0;
+}
+
+.stripe-box {
+    max-width: 800px;
+    margin: 0 auto;
+    min-width: 350px;
+}
+
+.menu-box {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    height: 50px;
+}
+
+.menu-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-left: 5px;
+}
+
+#message {
+    font-size: 1.4vh;
+    font-weight: 900;
+    display: inline-block;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 120vh;
+    margin: 0 auto;
+    flex: 0 0 33.3333%;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    border-radius: 50%;
+    transition: all .3s;
+    margin: 10px;
+}
+
+.footerDisplay {
+    background-color: rgb(48, 99, 148);
+    padding: 5px;
+}
+
+.footerDisplay h1{
+    font-size: 4.5vh;
+    padding-bottom: 5px;
+}
