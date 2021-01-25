@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Color Guessing Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="cgg.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>The Great RGB Color Game</h1>
+    </div>
+    <div class="stripe">
+        <div class="stripe-box">
+            <div class="menu-box">
+                <div class="menu-message">
+                    <span id="message">Choose a color matching the rbg value below!</span>
+                </div>
+                <div class="control-box">
+                    <button id="reset">RESET</button>
+                    <button id="easyBtn">EASY</button>
+                    <button id="hardBtn" class="selected">HARD</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <div class="footerDisplay">
+        <h1><span id="colorDisplay"></span></h1>
+    </div>
+</body>
+    <script src="cgg.js"></script>
+</html>
